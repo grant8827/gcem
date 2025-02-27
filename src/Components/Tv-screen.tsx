@@ -1,4 +1,4 @@
-import React, { CSSProperties } from 'react'
+import { CSSProperties } from 'react'
 function TvScreen() {
     const tvScreen: CSSProperties = {
         width: '100%',

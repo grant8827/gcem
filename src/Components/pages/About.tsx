@@ -1,4 +1,3 @@
-import React from 'react'
 import aboutPicture from '../../assets/images/picture1.png'
 function About() {
  
