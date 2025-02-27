@@ -1,0 +1,554 @@
+/*header styles start*/
+.navBar {
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-around;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+}
+.navLink {
+  display: flex;
+  gap: 20px;
+  color: var(--tertiary-color);
+}
+.navLink li {
+  list-style: none;
+  cursor: pointer;
+}
+.navLink a {
+text-decoration: none;  
+cursor: pointer;
+color: var(--primary-color);
+}
+.logostyle {
+  width: 120px;
+  height: 80px;
+  border-radius: 50%;
+}
+.drawerNav{
+  display: none;
+}
+/*.header{
+  height: auto;
+  width: 100%;
+  background-color: black;
+}*/
+.headerStyle {
+  background-image: url('./assets/images/logo.jpg');
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.529); 
+  background-blend-mode: multiply;
+  padding: 30px;
+  margin: auto;
+
+  
+}
+.headerText{
+  color: var(--tertiary-color);
+  width: auto;
+  height: 500px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center ;
+ 
+}
+.headerTitle{
+  margin-bottom: 20px; 
+  font-size: 40px; 
+  color: var(--primary-color);
+  text-align: center;
+}
+.headerParagraph{
+  width: 100%;
+   margin: auto;
+   text-Align: center;
+    align-content: center;
+    justify-content: center; 
+}
+/*header styles end*/
+/*card section styles start*/
+.CardSection{
+  position: relative;
+  bottom: 50px;
+  flex-wrap: wrap;
+  display: flex;
+ 
+}
+.infoCards {
+  display:flex;
+  flex-wrap: wrap;
+  width:100%;
+  height:20%;
+  text-align: center;
+  align-Content:center;
+  justify-Content:center;
+}
+.card{
+  width:220px;
+  height:auto;
+  margin: 10px;
+  margin: 20px;
+  background-color: var(--tertiary-color);
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 7px 4px 5px rgba(36, 36, 36, 0.2);
+  padding: 10px; 
+}
+.cardTop{
+  width:100%;
+  height:auto;
+  background-color: var(--tertiary-color);
+  border-Radius: 10px 10px 0 0;
+  text-Align: center;
+}
+
+.cardButton{
+  width: 30%;
+  margin: 20px 0 0 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.cardSpanButton{
+  width: 100%;
+  margin: 20PX 0 0 0;
+}
+
+/*caerd section styles end*/
+
+.videoinfoparagraph{
+margin: auto; 
+width: 50%;
+}
+
+/* streamBox styles start*/
+.streamBox{
+width:50%;
+ height:400px;
+}
+/*home page first section 1 styles start*/
+
+.cardImage {
+  width: 160px;
+  height: 100px;
+  Text-Align: center;
+}
+.firstSection {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+flex-wrap: wrap;
+  position: relative;
+  bottom: '50px';
+}
+.pictureImage{
+  width:380px;
+  height: auto;
+  margin:0 40px 20px 50px;
+}
+.section1Text{
+  width:350px;
+  height: auto;
+  margin: 0 0 0 40px;
+}
+.section1{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  bottom: '50px';
+}
+/*home page first section 1 styles end */
+
+
+/*home page first section 2 styles start*/
+
+
+.section2Text{
+  width:350px;
+  height: auto;
+  margin: 0 40px 0 0;
+}
+.section2{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px 0 80px 0;
+  
+}
+
+
+.slideshow {
+  width:50%;
+  height: auto;
+  margin:0 0 20px 50px;
+}
+.slideImages {
+  width: 80%;
+  height: 380px;
+}
+/*home page first section 2 styles end */
+
+/*nav drawer styles start*/
+.drawerListLink{
+  margin: 20px;
+  list-style: none;
+  gap: 20px;
+}
+.drawerListLink a{
+  text-decoration: none;
+  color: var(--primary-color);
+  gap: 20px;
+  height: 100%;
+}
+.drawerListLink li {
+ margin-top: 20px;
+}
+.drawerLinks{
+  width: 50%;
+}
+.drawerNavImage{
+  width: 200px;
+}
+/*nav drawer styles end*/
+
+/*notice board styles start*/
+.noticeBoard{
+  width: 100%;
+  height: auto;
+  background-color: var(--tertiary-color);
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 0 0 0;
+}
+.notice{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.noticeTitle{
+ font-size: 40px;
+color: var(--primary-color);
+}
+
+.Events{
+  width: 400px;
+  height: 200px;
+  margin: 20px;
+  background-color: var(--fourth-color);
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 7px 4px 5px rgba(36, 36, 36, 0.2);
+  padding: 10px;
+  ;
+
+}
+.eventTitle{
+ color: var(--primary-color);
+ font-size: 25px;
+}
+.eventDate{
+  text-align: left;
+  margin: 20px 0 0 20px;
+}
+
+/*notice board styles end*/
+
+/*about us styles start */
+
+.aboutPage{
+height: 100%;
+   width: 80%;
+   padding: 50px;
+   margin: auto;
+   background-color: white;
+ 
+ }
+ .aboutTitle {
+   color: var(--primary-color);
+   font-size: 40px;
+   margin: 80px 0 100px 0px;
+   text-align: center;
+  text-decoration: underline;
+ }
+ .aboutParagraph{
+   margin: 30px 0 0 0;
+   width: 40%;
+ }
+.aboutStacks {
+   display: flex;
+   flex-Wrap: wrap;
+   justify-content: center;
+   margin: 0 0 10% 0;
+ }
+.aboutImage {
+   width: 350px;
+   height: 400px;
+   margin: 30px 50px 0 0px;
+ }
+
+/*about us styles end*/
+
+/*service page styles start*/
+.serviceCards{
+  width: 80%;
+  height: auto;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0 7px 4px 5px rgba(36, 36, 36, 0.2);
+  border-radius: 10px;
+}
+.serviceImage{
+  width: 100%;
+  height: auto;
+}
+.serviceTitle{
+  color: var(--primary-color);
+  text-align: left;
+  margin: 10px 0 0 0;
+}
+.serviceParagraph{
+  text-align: left;
+  margin: 10px 0 0 0;
+}
+.servicePage{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(186px, 1fr));
+  justify-content: center;
+  padding: 100px 0 100px 0;
+  gap: 10px;
+  margin: auto;
+  width: 70%;
+}
+.emptySpace{
+  height: 700px;
+}
+/*service page styles end*/
+
+/*contact page styles start*/
+.ContactPage{
+  width: 100%;
+  height: auto;
+  background-color: var(--fourth-color);
+  padding: 50px 0 0 0;
+  text-align: center;
+}
+.ContactStacks{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 0 0 0;
+  margin: auto;
+  width: 70%;
+  background-color: var(--secondary-color);
+}
+.ContactForm{
+  width: 50%;
+  height: 400px;
+  background-color: var(--tertiary-color);
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 7px 4px 5px rgba(36, 36, 36, 0.2);
+  padding: 10px;
+  margin: 20px;
+  text-align: left;
+}
+.ContactForm input{
+  width: 80%;
+  height: 30px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 7px 4px 5px rgba(36, 36, 36, 0.2);
+}
+.ContactForm textarea{
+  width: 80%;
+  height: 50%;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 7px 4px 5px rgba(36, 36, 36, 0.2);
+}
+.ContactInfo{
+  width: 30%;
+  height: 400px;
+  background-color: var(--tertiary-color);
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 7px 4px 5px rgba(36, 36, 36, 0.2);
+  padding: 10px;
+  margin: 20px;
+  text-align: left;
+
+}
+.ContactInfo p{
+  margin: 10px 0 0 10px;
+}
+.ContactIcons {
+  margin: 0px 10px 0 0px;
+  color: var(--primary-color);
+}
+
+/*contact page styles end*/
+
+
+
+
+/*footer styles start*/
+.footer{
+  width: 100%;
+  height: 50px;
+  background-color: var(--secondary-color);
+  text-align: center;
+  align-content: center;
+   padding: 0;
+   margin: 0;
+
+   
+}
+/*footer styles end*/
+
+
+
+
+@media screen and (max-width: 900px) {
+  .drawerNav{
+    display: block;
+  }
+  .navLink{
+    display: none;
+  }
+  .aboutStacks {
+  flex-direction: column;
+   
+  }
+  .aboutPage{
+    width: 100%;
+   
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+  }
+  .aboutParagraph{
+    margin: 20px 20px 0 0;
+    width: 90%;
+  }
+  .aboutImage {
+    width: 90%;
+    height: 400px;
+    margin: 30px 30px 0 0px;
+  }
+
+  .chatBox{
+    width: 100%;
+    margin: 20px 60px 0 0;
+  }
+  .streamBox{
+    width:100%;
+     height:400px;
+     margin:0 50px 0 0;
+    }
+    .slideshow{
+    
+      margin: 20px 0  0 0;
+    }
+
+    .slideshow {
+      width:80%;
+      height: auto;
+      margin:0 0 20px 50px;
+    }
+    .emptySpace{
+      height: 700px;
+    }
+    .ContactForm{
+      width: 80%;
+      height: 400px;
+    
+    }
+    .ContactInfo{
+      width: 80%;
+      height: 400px;
+     
+    
+    }
+  
+}
+
+
+@media screen and (max-width: 550px) {
+  .navLink{
+    display: none;
+  }
+  .aboutPage{
+    width: 100%;
+    padding: 20px;
+  }
+  .aboutParagraph{
+    margin: 0px 20px 0 0;
+    width: 90%;
+  }
+  .aboutImage {
+    width: 85%;
+    height: 400px;
+    margin: 0px 30px 30px 0px;
+  }
+  /*chatbox and streambox styles*/
+  .chatBox{
+    width: 100%;
+    margin: 20px 60px 0 0;
+  }
+  .streamBox{
+    width:100%;
+     height:400px;
+     margin:0 50px 0 0;
+    }
+    /* chatbox and streambox styles end*/
+
+    .pictureImage{
+      width:300px;
+      height: auto;
+      margin:0 40px 20px 0;
+    }
+    .section2{
+    width: 100%;
+    margin: 20px;
+    justify-content: center;
+    }
+    .slideshow{
+    
+      margin: 20px 0  0 0;
+    }
+    .section2Text{
+      width:80%;
+      height: auto;
+      margin: 20px 0px 20px 0 0;
+    }
+
+    .section1Text{
+      margin: auto 20px;
+    }
+    .pictureImage{
+      margin: auto 20px;
+      margin-bottom: 20px;
+    }
+    .slideshow{
+      margin: auto 20px;
+      width: 100%;
+    }
+    .videoinfoparagraph{
+      margin: auto; 
+      width: 80%;
+      }
+      .emptySpace{
+        height: 500px;
+      }
+}
