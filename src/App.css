@@ -502,6 +502,9 @@ height: 100%;
   .headerTitle{
     font-size: 30px;
   }
+  .noticeBoard{
+    padding: 0;
+  }
   .aboutPage{
     width: 100%;
     padding: 20px;
@@ -564,5 +567,9 @@ height: 100%;
       }
       .emptySpace{
         height: 500px;
+      }
+      .slideshow{
+        margin: 0;
+        width: 100%;
       }
 }

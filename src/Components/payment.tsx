@@ -23,6 +23,14 @@ function payment() {
 <p style={{margin: '0 0 20px 0'}}>Please use the QR code below to make a payment PayPal</p>
 
 <img style={QRCodeImg} src={QRCode }alt="paypal" />
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
     </div>
   )
 }
