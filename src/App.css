@@ -488,6 +488,20 @@ height: 100%;
   .navLink{
     display: none;
   }
+  .headerStyle {
+    padding: 0;
+    margin: 0;
+  
+    
+  }
+ 
+  .headerTitle{
+    margin: 0px; 
+    
+  }
+  .headerTitle{
+    font-size: 30px;
+  }
   .aboutPage{
     width: 100%;
     padding: 20px;
