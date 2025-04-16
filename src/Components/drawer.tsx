@@ -12,6 +12,11 @@ function NavDrawer() {
     const toggleDrawer = () => {
         setIsOpen((prevState) => !prevState)
     }
+    const closeDrawer = () => {
+        setIsOpen(false)
+    }
+
+
 const barsIcon = {
     fontSize: '30px',
     color: 'var(--primary-color)'
@@ -34,10 +39,10 @@ const barsIcon = {
                 <div className='drawerLinks'>
                     <img className='drawerNavImage' src={logo} alt='logo'/>
                     <ul className='drawerListLink'>
-                    <li><Link  to='/'>Home</Link></li>
-                    <li><Link  to='/about'>About</Link></li>
-                    <li><Link  to='/services'>Services</Link></li>
-                    <li><Link  to='/contact'>Contact</Link></li>
+                    <li onClick={closeDrawer}><Link  to='/'>Home</Link></li>
+                    <li onClick={closeDrawer}><Link  to='/about'>About</Link></li>
+                    <li onClick={closeDrawer}><Link  to='/services'>Services</Link></li>
+                    <li onClick={closeDrawer}><Link  to='/contact'>Contact</Link></li>
             </ul>
 
                 </div>

@@ -24,7 +24,7 @@ function NoticeBoard() {
             <p>No Upcoming Events Announcements</p>
             </div>
         </div>
-    </div>
+        </div>
     </div>
   )
 }
