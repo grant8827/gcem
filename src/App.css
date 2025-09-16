@@ -37,7 +37,7 @@ color: var(--primary-color);
   background-color: black;
 }*/
 .headerStyle {
-  background-image: url('./assets/images/pastor-first-lady.png');
+  background-image: url('./assets/images/churchbg.jpeg');
   height: 70vh;
   width: 100%;
   background-size: cover;
